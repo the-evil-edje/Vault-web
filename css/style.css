@@ -1,0 +1,28 @@
+body{
+  overflow-y: hidden;
+}
+
+#auto-container{
+    height: 100vh;
+}
+
+#Main-container{
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+}
+
+#green-light{
+  float: left;
+  width: 50%;
+  height: 10%;
+  background-color: green;
+}
+
+#red-light{
+  float: right;
+  width: 50%;
+  height: 10%;
+  background-color: red;
+}
