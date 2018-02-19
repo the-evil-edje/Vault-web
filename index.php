@@ -17,11 +17,11 @@
       </div>
 
       <h1>Enter your code</h1>
-      <button  value="John" onClick="getName(this)">Click me!</button>
-      <button  value="Kim" onClick="getName(this)">Click me!</button>
-      <button  value="James" onClick="getName(this)">Click me!</button>
+      <button  value="1" onClick="getNumber(this)">1</button>
+      <button  value="2" onClick="getNumber(this)">2</button>
+      <button  value="3" onClick="getNumber(this)">3</button>
 
-      <div id="name-container"></div>
+      <div id="number-container"></div>
       <script type="text/javascript" src="js/main.js"></script>
     </div>
   </div>
