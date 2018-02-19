@@ -21,8 +21,8 @@
       <button  value="Kim" onClick="getName(this)">Click me!</button>
       <button  value="James" onClick="getName(this)">Click me!</button>
 
+      <div id="name-container"></div>
       <script type="text/javascript" src="js/main.js"></script>
-
     </div>
   </div>
 </body>
