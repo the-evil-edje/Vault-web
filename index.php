@@ -17,10 +17,10 @@
       </div>
 
       <h1>Enter your code</h1>
-      <button  value="1" onClick="getNumber(this)">1</button>
-      <button  value="2" onClick="getNumber(this)">2</button>
-      <button  value="3" onClick="getNumber(this)">3</button>
-
+      <button  class="buttonNumber" value="1" onClick="getNumber(this)">1</button>
+      <button  class="buttonNumber" value="2" onClick="getNumber(this)">2</button>
+      <button  class="buttonNumber" value="3" onClick="getNumber(this)">3</button>
+      <div id="truefalse"></div>
       <div id="number-container"></div>
       <script type="text/javascript" src="js/main.js"></script>
     </div>

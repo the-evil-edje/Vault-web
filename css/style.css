@@ -26,3 +26,8 @@ body{
   height: 10%;
   background-color: red;
 }
+
+#truefalse{
+  font-size: 30px;
+  text-align: center;
+}
