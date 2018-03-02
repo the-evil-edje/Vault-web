@@ -36,7 +36,7 @@ function getNumber(button) {
 
       if (numberOne == 3 & numberTwo == 1 & numberThree == 1) {
         disableButtons();
-        truefalse.innerHTML += "the code is correct";
+        truefalse.innerHTML = "the code is correct";
 
         var blink = setInterval(function() {
             intervalTimer++;
@@ -54,7 +54,7 @@ function getNumber(button) {
 
         }else {
           disableButtons();
-          truefalse.innerHTML += "the code is correct";
+          truefalse.innerHTML = "the code is  incorrect";
           var blink = setInterval(function() {
               intervalTimer++;
               if (redLight.style.visibility == 'hidden') {
